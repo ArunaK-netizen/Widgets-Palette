@@ -1,0 +1,11 @@
+.gradle/
+**/build/
+work/
+outputs/
+local.properties
+*.iml
+firebase-service-account*.json
+app/google-services.json
+*.jks
+*.keystore
+key.properties

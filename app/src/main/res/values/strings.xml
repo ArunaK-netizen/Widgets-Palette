@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Widget Palette</string>
+    <string name="widget_description">A quiet view of the Moon and its current phase</string>
+    <string name="lunar_widget_label">Lunar Lucent</string>
+    <string name="moon_only_widget_label">Lunar Lucent - Mini Moon</string>
+    <string name="moon_only_widget_description">A clean view of the current Moon phase</string>
+    <string name="constellation_widget_label">Constellation of the Day</string>
+    <string name="constellation_widget_description">Discover all 88 constellations, one per day, with a photograph, star schematic, and profile</string>
+    <string name="constellation_photo_description">Photograph of today’s constellation</string>
+    <string name="constellation_schematic_description">Star-line schematic of today’s constellation</string>
+</resources>

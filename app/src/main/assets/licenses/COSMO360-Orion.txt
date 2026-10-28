@@ -1,0 +1,9 @@
+Orion constellation photograph
+
+Photographer credit: E. Slawik/NOIRLab/NSF/AURA/M. Zamani
+Source page: https://cosmo360.ru/en/constellations/orion
+Original photo source: https://noirlab.edu/public/images/orion/
+License: Creative Commons Attribution 4.0 International
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+The bundled image is the 960 px WebP derivative served by COSMO360.

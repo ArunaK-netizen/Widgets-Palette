@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp">
+    <ImageView
+        android:id="@+id/lunar_widget_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="fitXY" />
+    <ImageView
+        android:id="@+id/moon_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@null" />
+    <LinearLayout
+        android:id="@+id/info_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingHorizontal="0dp"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/today_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D8D6D9"
+            android:textSize="8sp"
+            android:letterSpacing="0.12"
+            android:fontFamily="@font/geist_variable" />
+        <TextView
+            android:id="@+id/phase_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#F4F3F5"
+            android:textSize="12sp"
+            android:letterSpacing="0.04"
+            android:fontFamily="@font/geist_variable" />
+        <TextView
+            android:id="@+id/illumination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:fontFamily="@font/geist_variable" />
+        <TextView
+            android:id="@+id/illumination_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ILLUMINATED"
+            android:textColor="#D8D6D9"
+            android:textSize="8sp"
+            android:letterSpacing="0.12"
+            android:fontFamily="@font/geist_variable" />
+        <TextView
+            android:id="@+id/moon_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#F0EFF1"
+            android:textSize="9sp"
+            android:fontFamily="@font/geist_variable" />
+        <TextView
+            android:id="@+id/phase_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="#D8D6D9"
+            android:textSize="9sp"
+            android:fontFamily="@font/geist_variable" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/portrait_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="2dp"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/portrait_moon_image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@null" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/portrait_phase_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textColor="#F4F3F5"
+                android:textSize="12sp"
+                android:letterSpacing="0.01"
+                android:fontFamily="@font/geist_variable" />
+            <TextView
+                android:id="@+id/portrait_illumination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#F0EFF1"
+                android:textSize="11sp"
+                android:fontFamily="@font/geist_variable" />
+            <TextView
+                android:id="@+id/portrait_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:textColor="#D8D6D9"
+                android:textSize="10sp"
+                android:fontFamily="@font/geist_variable" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
